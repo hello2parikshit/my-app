@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/hello2parikshit/myapp/master/Jenkinsfile'
+     git 'https://github.com/hello2parikshit/myapp/blob/master/Jenkinsfile'
    }
    stage('Compile-Package'){
       // Get maven home path
